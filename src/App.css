@@ -1004,12 +1004,13 @@ body {
     text-transform: uppercase;
     color: #222222;
     margin-bottom: 5px;
+    margin-left: 5px;
     transition: all 0.3s ease-in-out;
     border-radius: 3px;
   }
   
   .portfolio #portfolio-flters li:hover,
-  .portfolio #portfolio-flters li.filter-active {
+  .portfolio #portfolio-flters li.portfolio-active-type {
     color: #fff;
     background: #3498db;
   }
