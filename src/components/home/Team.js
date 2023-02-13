@@ -4,15 +4,15 @@ import TeamCard from './TeamCard'
 const Team = () => {
     return (
         <>
-            <section id="team" class="team section-bg">
-                <div class="container">
+            <section id="team" className="team section-bg">
+                <div className="container">
 
-                    <div class="section-title" data-aos="fade-up">
+                    <div className="section-title" data-aos="fade-up">
                         <h2>Team</h2>
                         <p>Original Gangster of Software development Team</p>
                     </div>
 
-                    <div class="row">
+                    <div className="row">
                         {/* <TeamCard name="Sahil Bharal" position="Team member" img="https://cdn.pixabay.com/photo/2016/11/19/22/52/coding-1841550_960_720.jpg"></TeamCard> */}
                         {/* <TeamCard name="Sahil Bharal" position="Team member" img="https://ssbharal.tech/assets/img/dp3.jpeg"></TeamCard> */}
                         <TeamCard name="Sahil Bharal" position="Team member" img="https://media.licdn.com/dms/image/C4D03AQFi2l0xuCP-JQ/profile-displayphoto-shrink_800_800/0/1654217002315?e=2147483647&v=beta&t=ivol19H8Ii19f2XhWODv664Sc4E7GP55tvXcRxlmzVM"></TeamCard>
